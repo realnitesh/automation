@@ -13,7 +13,7 @@ public class switch_window {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\chromedriver113.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\chromedriver114.exe");
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
@@ -47,11 +47,7 @@ public class switch_window {
 		   System.out.println("No of Tab  "+ s1.size());
 	   }
 	   
-	  
-	   
-	    
-		
-		
+	  	
 		driver.quit();
 		
 
