@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class brokenlink_copy {
 
 	public static void main(String[] args) {
-	
+	//https://toolsqa.com/selenium-webdriver/find-broken-links-in-selenium/
 		System.setProperty("webdriver.chrome.driver","C:/eclipse/chromedriver.exe");
 		        ChromeOptions options = new ChromeOptions();
 		        options.addArguments("--remote-allow-origins=*");
