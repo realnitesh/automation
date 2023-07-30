@@ -10,10 +10,10 @@ public class gpt_reg_form {
 	
 	public static void main(String[] args) {
 	
-	  System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\chromedriver113.exe");
+	  //System.setProperty("webdriver.chrome.driver", "C:/eclipse/chromedriver.exe");
 
       // Create an instance of ChromeDriver
-    System.setProperty("webdriver.chrome.driver","C:\\eclipse\\chromedriver113.exe");
+    System.setProperty("webdriver.chrome.driver","C:\\eclipse\\chromedriver.exe");
   	ChromeOptions options = new ChromeOptions();
   	options.addArguments("--remote-allow-origins=*");
   	WebDriver driver = new ChromeDriver(options);

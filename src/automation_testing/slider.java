@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class slider {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C://eclipse/chromedriver114.exe");
+		System.setProperty("webdriver.chrome.driver", "C://eclipse/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
